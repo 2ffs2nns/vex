@@ -1,9 +1,9 @@
 ################################### Default Configuration ############################
-baseurl = "https://balloondesignbyjess.com/"
+baseurl = "https://balloondesignbyjess.com/website/"
 languageCode = "en"
 title = "Balloon Design By Jess"
 theme = "vex-hugo"
-pubishDir = "website"
+publishDir = "website"
 
 #################################### Plugins ##########################################
 [params.plugins]
