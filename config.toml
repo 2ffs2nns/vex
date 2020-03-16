@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "https://balloondesignbyjess.com/"
+baseurl = "https://balloondesignbyjess.com/website/"
 languageCode = "en"
 title = "Balloon Design By Jess"
 theme = "vex-hugo"
