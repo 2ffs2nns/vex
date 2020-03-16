@@ -1,11 +1,9 @@
 ############################# banner ############################
 banner:
   enable : true
-  title : "Balloons make everything better"
+  title : "Balloon Design By Jess"
   content : "Balloons are the perfect decor addition for any type of party or company event. We can help you with an overall design, plan and budget for any event in the Benicia area!"
   
-  # image : "images/balloon_chair_pxfuel.com.jpg"
-  #image : "images/pink_bundle.png"
   image : "images/rainbow_arch.jpg"
   button: ""
 
@@ -61,7 +59,7 @@ features:
 
 ############################# promo ############################
 promo:
-  enable : false
+  enable : True
   image : "images/pink_bundle.png"
   title : "blah"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
@@ -89,7 +87,8 @@ aboutProduct:
 #################################### Gallery ########################
 gallery:
   enable : true
-  title : "Balloons For Any Occasion"
+  title : "@instagram stories"
+  url : "https://www.instagram.com/balloondesignbyjess"
   # Set the image directory to use as base
   directory : "images/showcase"
   # Set the images to show in the gallery
