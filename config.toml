@@ -1,9 +1,9 @@
 ################################### Default Configuration ############################
-baseurl = "https://balloondesignbyjess.github.io/website/"
+baseurl = "https://2ffs2nns.github.io/"
 languageCode = "en"
 title = "Balloon Design By Jess"
 theme = "vex-hugo"
-publishDir = "website"
+publishDir = "2ffs2nns.github.io"
 
 #################################### Plugins ##########################################
 [params.plugins]
