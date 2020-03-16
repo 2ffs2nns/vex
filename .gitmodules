@@ -1,6 +1,3 @@
 [submodule "2ffs2nns.github.io"]
 	path = 2ffs2nns.github.io
 	url = git@github.com:2ffs2nns/2ffs2nns.github.io.git
-[submodule "themes/vex-hugo"]
-	path = themes/vex-hugo
-	url = git@github.com:themefisher/vex-hugo.git
