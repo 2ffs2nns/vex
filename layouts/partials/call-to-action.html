@@ -1,0 +1,31 @@
+{{- if .Site.Data.homepage.cta.enable }}
+{{- with .Site.Data.homepage.cta }}
+<!-- <section class="call-to-action section bg-opacity" style="background-image: url('{{ .bgImage | absURL }}');"> -->
+<section id="contact" class="call-to-action section" style="background-image: url('{{ .bgImage | absURL }}');">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-8 text-center mx-auto">
+        <h2 class="subheading text-black">{{ .title | markdownify }}</h2>
+        <p class="text-black">{{ .content | markdownify }}</p>
+        <p></p>
+        <p><strong>Phone:</strong> 707-410-6694 <strong>Email:</strong>
+        <a href="mailto:balloondesignbyjess@gmail.com">
+          balloondesignbyjess@gmail.com</a></p>
+        <p class="a"><a href="https://www.instagram.com/balloondesignbyjess/"><img src="images/instagram.png" title="" height="40px" width="40px"></a> <a href="http://fb.me/balloondesignbyjess"><img src="images/facebook.png" title="" height="40px" width="40px"></a></p>
+        <div class="input-group">
+          <form action="https://usebasin.com/f/b8daae35152d" method="POST" class="w-100">
+            <input type="email" id="email" class="form-control" name="email" placeholder="{{ .placeholder }}"
+            required>
+            <p></p>
+            <textarea id="message" class="form-control" name="message" placeholder="Leave a short message before clicking Submit."
+            required ></textarea>
+            <button class="btn btn-main btn-submit" type="submit">Submit</button>
+          </form>
+        </div>
+        <!-- /input-group -->
+      </div>
+    </div>
+  </div>
+</section><!-- #call-to-action close -->
+{{- end }}
+{{- end }}
