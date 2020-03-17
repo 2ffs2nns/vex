@@ -2,10 +2,50 @@
 banner:
   enable : true
   title : "Balloon Design By Jess"
-  content : "Balloons are the perfect decor addition for any type of party or company event. We can help you with an overall design, plan and budget for any event in the Benicia area!"
+  content : "Balloons are the perfect decor addition for parties and events. We can help you with an overall design, plan and budget for all your fabulous gatherings."
   
   image : "images/rainbow_arch.jpg"
   button: ""
+
+############################# promo ############################
+promo:
+  enable : True
+  image : "images/no_pic.png"
+  title : "Eco-friendly Loveliness"
+  content : "Our latex Balloons are made of natural materials and are 100% biodegradeable. Balloon Design By Jess creates innovative designs to make your event memmorable."
+
+#################################### Gallery ########################
+gallery:
+  enable : true
+  title : "@instagram stories"
+  url : "https://www.instagram.com/balloondesignbyjess"
+
+  # Set the image directory to use as base
+  directory : "images/showcase"
+
+  # Set the images to show in the gallery
+  images : ["showcase-foxfawn-1.png", "showcase-foxfawn-2.png", "showcase-foxfawn-4.png"]
+
+################################## call to action ###################
+cta:
+  enable : true
+  bgImage : "images/pink_balloon.jpg"
+  title : "Contact"
+  content : "I offer a free consultation with all balloon designs."
+  placeholder : "Your Email Address Here"
+
+############################## NOT ENABLED BELOW ####################
+#
+############################## Testimonial ##########################
+testimonial:
+  enable : false
+  title : "Testimonials"
+  testimonialItem:
+    # testimonial item loop
+    - name : "Tina Hancock"
+      designation : "CEO, The Sattler Hancock Group"
+      image : "images/no_pic.png"
+      content : "Everything was so awesome!!"
 
 ############################## product ###########################
 product:
@@ -57,17 +97,6 @@ features:
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
 
-############################# promo ############################
-promo:
-  enable : True
-  image : "images/pink_bundle.png"
-  title : "blah"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
-            nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
-            <br><br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
-
-
 ############################# About Product #######################
 aboutProduct:
   enable : true
@@ -83,39 +112,3 @@ aboutProduct:
         enable : true
         label : "Check Features"
         link : "#"
-
-#################################### Gallery ########################
-gallery:
-  enable : true
-  title : "@instagram stories"
-  url : "https://www.instagram.com/balloondesignbyjess"
-  # Set the image directory to use as base
-  directory : "images/showcase"
-  # Set the images to show in the gallery
-  images : ["showcase-foxfawn-1.png", "showcase-foxfawn-2.png", "showcase-foxfawn-4.png"]
-
-
-
-################################## call to action ###################
-cta:
-  # bgImage : "images/black-background.jpg"
-  # bgImage : "images/pikrepo.com.jpg"
-  # bgImage : "images/chalkboard.jpg"
-  # bgImage : "images/no_pic.png"
-  enable : true
-  bgImage : "images/pink_balloon.jpg"
-  title : "Contact"
-  content : "I offer a free consultation for all new installations."
-  placeholder : "Your Email Address Here"
-
-
-############################## Testimonial ##########################
-testimonial:
-  enable : false
-  title : "Testimonials"
-  testimonialItem:
-    # testimonial item loop
-    - name : "Tina Hancock"
-      designation : "CEO, The Sattler Hancock Group"
-      image : "images/no_pic.png"
-      content : "Everything was so awesome!!"
