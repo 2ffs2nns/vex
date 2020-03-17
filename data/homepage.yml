@@ -2,7 +2,7 @@
 banner:
   enable : true
   title : "Balloon Design By Jess"
-  content : "Balloons are the perfect decor addition for parties and events. We can help you with an overall design, plan and budget for all your fabulous gatherings."
+  content : "Balloons are the perfect decor addition for parties and events. We can help you with an overall design, plan and budget for all of your fabulous gatherings."
   
   image : "images/rainbow_arch.jpg"
   button: ""
@@ -12,7 +12,7 @@ promo:
   enable : True
   image : "images/no_pic.png"
   title : "Eco-friendly Loveliness"
-  content : "Our latex Balloons are made of natural materials and are 100% biodegradeable. Balloon Design By Jess creates innovative designs to make your event memmorable."
+  content : "Our latex Balloons are made of natural materials and are 100% biodegradable. Balloon Design By Jess creates innovative designs to make your event memmorable."
 
 #################################### Gallery ########################
 gallery:
